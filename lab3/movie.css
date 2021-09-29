@@ -19,6 +19,9 @@ header{
     
 
 }
+header>div{
+    margin-left: 250px;
+}
 .main-section>h1
 {
     text-align: center;
@@ -36,7 +39,7 @@ header{
     margin: 0px auto;
 }
 .user-qoute{
-   border: solid;
+   border: solid grey 1px;
    border-radius: 10px;
    padding: 10px;
    background-color: #E8dc9b;
@@ -67,6 +70,7 @@ header{
     font-weight: bold;
 }
 .validation{
+
     position: fixed;
     bottom: 0;
     right: 0;
@@ -83,4 +87,10 @@ dt{
 dl{
     padding: 20px;
     margin-top: -15px;
+}
+.top{
+    position: relative;
+}
+.bottom{
+    position: relative;
 }
