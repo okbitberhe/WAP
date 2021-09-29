@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("images/background.png");
+}
+header{
+    background-image: url("images/bannerbg.png");
+    background-repeat: repeat-x;
+}
+.main-section >div>aside
+{
+    float: right;
+    width: 27%;
+    font-size: 13px;
+   
+    
+
+}
+.main-section>h1
+{
+    text-align: center;
+}
+.main-section>div{
+
+    border: solid grey 1px;
+    border-radius: 20px;
+    background-color: #A2B964;
+    overflow: hidden;
+}
+.main-section
+{
+    max-width: 940px;
+    margin: 0px auto;
+}
+.user-qoute{
+   border: solid;
+   border-radius: 10px;
+   padding: 10px;
+   background-color: #E8dc9b;
+
+
+
+}
+.user-comment{
+    padding: 10px;
+
+}
+.user-critic{
+    color: grey;
+    font-size: 13px;
+
+
+}
+.all-comments{
+    column-count: 2;
+    background-image: url("images/background.png");
+    margin-top: -13px;
+}
+.main-body-header{
+    background-image: url("images/rbg.png");
+    background-repeat: repeat-x;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+}
+.validation{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.link{
+    list-style-type:none;
+}
+.pages{
+    text-align: center;
+}
+dt{
+    margin-top: 4px;
+}
+dl{
+    padding: 20px;
+    margin-top: -15px;
+}
