@@ -75,7 +75,7 @@ footer{
     order: 3;
     grid-area: column3;
 }
-@media screen and (max-width: 600px)
+@media screen and (min-width: 600px)
 {
 
     .columns
