@@ -1,7 +1,7 @@
 body{
     padding: 0px;
   
-    display: grid;
+    /* display: grid; */
    
     margin: 0;
 }
@@ -93,7 +93,7 @@ footer{
         background-color: lightgrey;
         order: 3;
         height: 300px;
-        flex-grow: 3;
+        flex-grow: 2;
         width: 100%;
         
     }
