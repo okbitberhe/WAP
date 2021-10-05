@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>W2D1 - part 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="mystyle.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <div id="form-container">
+        <form>
+            <label class="title">Email Address</label> <br>
+            <input class="input-box" type="text" name="email" placeholder="Enter email" /> <br>
+            <span id="email-note">We'll never share your email with anyone else.</span> <br>
+            <label class="title">Password</label> <br>
+
+            <input class="input-box" type="password" name="password" placeholder="Password" pattern="(?=[a-z]+)(?=[A-Z]+)(?=[0-9]+).{10,}" /> <br>
+            
+            <label class="title" id="url">Url</label> <br>
+            <input class="input-box" type="text" name="url" placeholder="Enter Url" pattern="https?://.+" /> <br>
+           
+            <label class="check-box"><input type="checkbox" name="cme">Check me out</label> <br>
+            <button>Submit</button> 
+        </form>
+    </div>
+
+
+   
+
+</body>
+
+</html>
