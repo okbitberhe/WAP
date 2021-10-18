@@ -35,12 +35,12 @@ class Product {
   }
 }
 products = [
-  new Product(1, "product 1", 10, "product description"),
-  new Product(2, "product 2", 20, "product description"),
-  new Product(3, "product 3", 30, "product description"),
-  new Product(3, "product 4", 40, "product description"),
-  new Product(3, "product 5", 50, "product description"),
-  new Product(3, "product 6", 60, "product description"),
-  new Product(3, "product 7", 70, "product description"),
+  new Product(1, "pro 1", 6, "product description"),
+  new Product(2, "pro 2", 10, "product description"),
+  new Product(3, "pro 3", 14, "product description"),
+  new Product(3, "pro 4", 16, "product description"),
+  new Product(3, "prod 5", 21, "product description"),
+  new Product(3, "prod 6", 24, "product description"),
+  new Product(3, "prod 7", 34, "product description"),
 ];
 module.exports = Product;
